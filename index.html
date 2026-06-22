@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MA ❤️ DADDY | Happy Anniversary</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="welcomeScreen">
+
+    <div class="welcome-content">
+
+        <h1>❤️ Welcome MA & DADDY ❤️</h1>
+
+        <h2>26 Years of Togetherness</h2>
+
+        <p id="typingText"></p>
+
+        <button onclick="startJourney()">
+            ❤️ Begin Our Journey ❤️
+        </button>
+
+    </div>
+
+</div>
+
+<!-- Music -->
+<audio id="loveSong" loop>
+    <source src="background_song.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Hero -->
+
+<section class="hero">
+
+    <div class="overlay">
+        <div id="anniversaryCounter"></div>
+
+        <h1>Happy Anniversary ❤️</h1>
+
+        <h2>MA ❤️ DADDY</h2>
+
+        <p class="date">
+            2 July 2000 — Forever
+        </p>
+
+        <p class="guj">
+            પ્રેમ, વિશ્વાસ અને સાથે ચાલેલી
+            એક સુંદર સફર... ❤️
+        </p>
+
+        <a href="#story"
+           class="btn"
+           onclick="playStoryMusic()">
+           💖 Open Our Story
+        </a>
+
+    </div>
+
+</section>
+
+<!-- Timeline -->
+
+<section id="story">
+
+<h2>Our Beautiful Journey</h2>
+
+<div class="timeline">
+
+<div class="card">
+💍
+<h3>2 July 2000</h3>
+<p>Wedding Day</p>
+</div>
+
+<div class="card">
+🏠
+<h3>Dreams</h3>
+<p>Built Together</p>
+</div>
+
+<div class="card">
+👨‍👩‍👧‍👦
+<h3>Family</h3>
+<p>Growing Together</p>
+</div>
+
+<div class="card">
+🎓
+<h3>Support</h3>
+<p>Every Dream</p>
+</div>
+
+<div class="card">
+❤️
+<h3>26 Years</h3>
+<p>Of Love</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- Counter -->
+
+<section class="counter">
+
+    <h2>❤️ Together Since 2 July 2000 ❤️</h2>
+
+</section>
+
+<!-- Gallery -->
+
+<section class="gallery">
+
+    <h2>Our Precious Memories 📸</h2>
+
+    <div class="album">
+
+        <span style="--i:1"><img src="images/photo1.jpg"></span>
+        <span style="--i:2"><img src="images/photo2.jpg"></span>
+        <span style="--i:3"><img src="images/photo3.jpg"></span>
+        <span style="--i:4"><img src="images/photo4.jpg"></span>
+        <span style="--i:5"><img src="images/photo5.jpg"></span>
+        <span style="--i:6"><img src="images/photo6.jpg"></span>
+        <span style="--i:7"><img src="images/photo7.jpg"></span>
+        <span style="--i:8"><img src="images/photo8.jpg"></span>
+
+    </div>
+
+</section>
+
+<!-- Letter -->
+
+<section class="letter-section">
+
+    <h2>A Special Letter From Harsh ❤️</h2>
+
+    <div class="envelope-container">
+
+        <div class="envelope" onclick="openLetter()">
+
+            💌
+
+            <p>Click To Open</p>
+
+        </div>
+
+    </div>
+
+    <div id="letterContent" class="letter-hidden">
+
+        <div class="paper">
+
+            <p>
+
+            Dear MA and DADDY,
+
+            <br><br>
+
+            Happy Anniversary ❤️
+
+            <br><br>
+
+            આજે તમારા લગ્નને 26 વર્ષ પૂર્ણ થયા.
+
+            <br><br>
+
+            આ વર્ષોમાં તમે માત્ર એક સુંદર જીવનસાથી જ નહીં,
+            પણ અમારા માટે શ્રેષ્ઠ માતા-પિતા પણ રહ્યા છો.
+
+            <br><br>
+
+            Every smile, every sacrifice and every lesson
+            you gave us has made us who we are today.
+
+            <br><br>
+
+            તમારો પ્રેમ અને વિશ્વાસ અમારે માટે
+            હંમેશા પ્રેરણા રહેશે.
+
+            <br><br>
+
+            Love You Always ❤️
+
+            <br><br>
+
+            — Harsh
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Surprise -->
+
+<section class="poem-section">
+
+    <h2>📜 Harsh's Poem For MA & DADDY ❤️</h2>
+
+    <button class="poem-btn" onclick="showPoem()">
+        Open Poem ❤️
+    </button>
+
+    <div id="poemContainer" class="poem-hidden">
+
+        <div class="poem-card">
+
+            <p id="poemText"></p>
+
+        </div>
+
+    </div>
+
+</section>
+<section id="finale" class="finale">
+
+    <h1>❤️ Thank You MA & DADDY ❤️</h1>
+
+    <p>
+
+    For every sacrifice.<br>
+    For every lesson.<br>
+    For every smile.<br><br>
+
+    Our family exists because
+    your love never gave up.
+
+    <br><br>
+
+    પ્રેમ, વિશ્વાસ અને પરિવારનું સાચું મહત્વ
+    અમને શીખવવા બદલ આભાર.
+
+    <br><br>
+
+    Love Always,
+
+    <br>
+
+    Harsh ❤️
+
+    </p>
+
+</section>
+
+<canvas id="fireworksCanvas"></canvas>
+
+<footer>
+
+❤️ Happy Anniversary MA ❤️ DADDY ❤️
+
+<br><br>
+
+Made With Love By Harsh
+
+</footer>
+<div id="petals-container"></div>
+<script src="script.js"></script>
+
+</body>
+</html>
